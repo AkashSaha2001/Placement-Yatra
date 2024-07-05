@@ -2,7 +2,6 @@ import React from 'react'
 import './Log-Reg.css'
 
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 
 export default function Login() {
@@ -41,7 +40,6 @@ export default function Login() {
     </form>
 
 
-    <Footer/>
 
 
 

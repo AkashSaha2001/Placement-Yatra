@@ -3,7 +3,6 @@ import './Home.css';
 import Card from '../components/Card.js';
 import ImageCard from '../components/ImageCard.js';
 import ContactUs from '../components/ContactUs.js';
-import Footer from '../components/Footer.js';
 import { Link } from 'react-router-dom';
 
 // import Companies from './Companies.js';
@@ -74,7 +73,7 @@ export default function Home() {
           {/* col 2 */}
           <div className="col-md-6 col-12 text-center mt-5">
             <img
-              src="https://www.o1codingclub.in/static/media/laptop_for_webpage.d10de3456c57725d9b10.png"
+              src="/image/index.png"
               style={{ maxWidth: '500px', maxHeight: '300px', marginTop: '50px' }}
               alt="Laptop illustration"
             />
@@ -115,7 +114,7 @@ export default function Home() {
 
               title="Aptitude"
               description="Learn Aptitude from basic to pro with Placement Yatra"
-              link="/"
+              link="/Apptitude"
               linktitle="Prepare Now"
 
             />
@@ -134,7 +133,7 @@ export default function Home() {
 
               title="CS Subjects"
               description="Prepare for CS Subjects with Placement Yatra and excel in your chosen field."
-              link="/"
+              link="/Subjects"
               linktitle="Prepare Now"
 
             />
@@ -228,7 +227,6 @@ export default function Home() {
       <ContactUs/>
       {/* <Slideshow/> */}
       {/* <Companies/> */}
-      <Footer/>
 
 
 

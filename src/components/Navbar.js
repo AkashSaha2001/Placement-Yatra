@@ -74,7 +74,9 @@ export default function Navbar() {
                                     </li>
                                     <li style={{padding:'10px'}} ><a className="dropdown-item" href="/">Computer Networking</a></li>
                                     <li style={{padding:'10px'}} ><a className="dropdown-item" href="/">Database Management Systems</a></li>
-                                    <li style={{padding:'10px'}} ><a className="dropdown-item" href="/">Data Structure And Algorithms</a></li>
+                                    <li style={{padding:'10px'}} ><a className="dropdown-item" href="/">Operating Systems</a></li>
+                                    <li style={{padding:'10px'}} ><a className="dropdown-item" href="/">Software Engineering</a></li>
+
                                 </ul>
                             </li>
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import './Companies.css'
 import Slideshow from '../components/Slideshow'
-import Footer from '../components/Footer'
 import CardText from '../components/CardText'
 
 export default function Companies() {
@@ -143,7 +142,6 @@ export default function Companies() {
 
 
             </div>
-            <Footer />
         </>
     )
 }

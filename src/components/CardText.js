@@ -2,11 +2,11 @@ import React from 'react'
 import './CardText.css'
 import { Link } from 'react-router-dom'
 
-export default function CardText({imagelink,title,description,buttonlink}) {
+export default function CardText({imagelink,imagestyle,title,description,buttonlink}) {
     return (
         <>
             <div class="card custom-card">
-                <img src={imagelink} alt="Accenture"/>
+                <img src={imagelink} style={imagestyle} alt=""/>
                     <div class="card-body">
                         <h5 class="card-title">{title}</h5>
                         <p class="card-text">{description}</p>
