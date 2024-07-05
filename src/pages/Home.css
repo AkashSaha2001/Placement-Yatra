@@ -1,0 +1,52 @@
+#textchange {
+  display: inline-block;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.body .content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.body .row a {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: rgb(101, 221, 125);
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+  max-width: 250px;
+}
+
+.body .row a:hover {
+  background: #2ecc71;
+  color: white;
+}
+
+.container .home-skills {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .home-skills label {
+  margin: 5px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}

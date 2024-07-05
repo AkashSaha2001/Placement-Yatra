@@ -1,0 +1,57 @@
+.footer-container {
+    background-color: #343a40; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-learn-aptitude a,
+.footer-companies a,
+.footer-resources a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* margin-bottom: 5px; */
+}
+
+.footer-learn-aptitude a:hover,
+.footer-companies a:hover,
+.footer-resources a:hover {
+    background-color: #30363b;
+    font-size: 20px;
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+}
+
+.footer-learn-title {
+    color: #ffffff; 
+    font-size: 25px; 
+    font-weight: bold; 
+    margin-bottom: 16px; /* Increased margin for better spacing */
+    display: block; 
+}
+
+.footer-intro h3 {
+    color: #89d1a5;
+    font-size: 30px; /* Larger font for the title */
+    margin-bottom: 8px;
+}
+
+.footer-intro p {
+    color: #ffffff;
+    font-size: 18px; /* Increased font size for the description */
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}

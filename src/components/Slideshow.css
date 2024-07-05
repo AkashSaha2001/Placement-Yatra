@@ -1,0 +1,34 @@
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.companies-block {
+    display: flex;
+    animation: marquee 20s linear infinite;
+}
+
+.marquee {
+    display: flex;
+}
+
+.stack {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 20px; /* Adjust spacing as needed */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
