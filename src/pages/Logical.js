@@ -1,6 +1,8 @@
 import React from 'react'
 import SubjectTopic from '../components/SubjectTopic'
 
+import AptitudeCardL from '../components/AptitudeCardL'
+import AptitudeCardR from '../components/AptitudeCardR'
 export default function Logical() {
     return (
         <>
@@ -19,130 +21,84 @@ export default function Logical() {
             </div>
 
 
-            
+
             {/* <!--------------------------------Series ----------------------------------> */}
 
-        <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-            <h3 className="">Series</h3>
-            <div className="row">
 
-                <div className="col-md-8 col-12">
-                    <ul>
-                        <li style={{padding: '10px'}}> Number Series – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        <li style={{padding: '10px'}}> Coding and Number Series  – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        <li style={{padding: '10px'}}> Letter and Symbol Series  – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        <li style={{padding: '10px'}}> Logical Sequence of Words – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        <li style={{padding: '10px'}}> Analogy and Classification Pattern – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                    </ul>
-                </div>
+            <AptitudeCardR
+                title="Series"
+                subtopic1="Number Series"
+                subtopic2="Coding and Number Series"
+                subtopic3="Letter and Symbol Series"
+                subtopic4="Logical Sequence of Words"
+                subtopic5="Analogy and Classification Pattern"
 
-                <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                    <img src="https://files.prepinsta.com/2023/07/important-logical-topics-1.webp" alt="" style={{maxWidth: '200px'}}/>
-                </div>
-            </div>
-        </div>
-
-    {/* <!--------------------------------Statements----------------------------------> */}
-
-    <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-        <h3 className="">Statements</h3>
-        <div className="row">
-
-            <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                <img src="https://files.prepinsta.com/2023/07/verbal-reasoning-topics.webp" alt="" style={{maxWidth: '200px'}}/>
-            </div>
-
-            <div className="col-md-8 col-12">
-                <ul>
-                    <li style={{padding: '10px'}}> Statements and Conclusions  – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                    <li style={{padding: '10px'}}> Statements and Assumptions –  <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                    <li style={{padding: '10px'}}> Data Sufficiency – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                </ul>            
-            </div>
-        </div>
-    </div>
+                image="https://files.prepinsta.com/2023/07/important-logical-topics-1.webp"
 
 
-      {/* <!--------------------------------Visual Reasoning ----------------------------------> */}
+            />
 
-      <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-        <h3 className="">Visual Reasoning</h3>
-        <div className="row">
+            {/* <!--------------------------------Statements----------------------------------> */}
 
-            <div className="col-md-8 col-12">
-                <ul>
-                    <li style={{padding: '10px'}}> Visual Reasoning <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                    <li style={{padding: '10px'}}> Cube and Cuboid –  <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                    <li style={{padding: '10px'}}> Cube – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                    <li style={{padding: '10px'}}> Dice – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                </ul>
-            </div>
+            <AptitudeCardL
+                title="Statements"
+                subtopic1="Statements and Conclusions"
+                subtopic2="Statements and Assumptions"
+                subtopic3="Data Sufficiency"
 
-            <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                <img src="https://files.prepinsta.com/2023/07/important-logical-reasoning-topics.webp" alt="" style={{maxWidth: '200px'}}/>
-            </div>
-        </div>
-    </div>
+                image="https://files.prepinsta.com/2023/07/verbal-reasoning-topics.webp"
+
+            />
 
 
-{/* <!--------------------------------Classic Reasoning ----------------------------------> */}
+            {/* <!--------------------------------Visual Reasoning ----------------------------------> */}
 
-        <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-            <h3 className="">Classic Reasoning</h3>
-            <div className="row">
-    
-                <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                    <img src="https://files.prepinsta.com/2023/07/how-to-prepare-aptitude.webp" alt="" style={{maxWidth: '200px'}}/>
-                </div>
-    
-                <div className="col-md-8 col-12">
-                    <ul>
-                        <li style={{padding: '10px'}}> Directional Senses – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        <li style={{padding: '10px'}}> Blood Relations  <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        <li style={{padding: '10px'}}> Syllogism <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                    </ul>            
-                </div>
-            </div>
-        </div>
+            <AptitudeCardR
+                title="Visual Reasoning"
+                subtopic1="Visual Reasoning"
+                subtopic2="Cube and Cuboid"
+                subtopic3="Cube"
+                subtopic4="Cuboid"
 
-{/* <!--------------------------------Arrangements ----------------------------------> */}
+                image="https://files.prepinsta.com/2023/07/important-logical-reasoning-topics.webp"
 
-      <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-        <h3 className="">Arrangements</h3>
-        <div className="row">
+            />
 
-            <div className="col-md-8 col-12">
-                <ul>
-                    <li style={{padding: '10px'}}> Arrangements <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                    <li style={{padding: '10px'}}> Seating Arrangements –  <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                </ul>
-            </div>
 
-            <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                <img src="https://files.prepinsta.com/2023/07/english-topics-for-placements.webp" alt="" style={{maxWidth: '200px'}}/>
-            </div>
-        </div>
-    </div>
+            {/* <!--------------------------------Classic Reasoning ----------------------------------> */}
 
-{/* <!--------------------------------Mics ----------------------------------> */}
+            <AptitudeCardL
+                title="Classic Reasoning"
+                subtopic1="Directional Senses"
+                subtopic2="Blood Relations"
+                subtopic3="Syllogism"
 
-    <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-        <h3 className="">Mics</h3>
-        <div className="row">
+                image="https://files.prepinsta.com/2023/07/how-to-prepare-aptitude.webp"
 
-            <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                <img src="https://files.prepinsta.com/2023/07/start-placement-preparations.webp" alt="" style={{maxWidth: '200px'}}/>
-            </div>
+            />
 
-            <div className="col-md-8 col-12">
-                <ul>
-                    <li style={{padding: '10px'}}> Coding Deductive Logic – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                    <li style={{padding: '10px'}}> Selection Decision Tables - <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                    <li style={{padding: '10px'}}> Attention to Details – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                </ul>            
-            </div>
-        </div>
-    </div>
+            {/* <!--------------------------------Arrangements ----------------------------------> */}
+
+            <AptitudeCardR
+                title="Arrangements"
+                subtopic1="Arrangements"
+                subtopic2="Seating Arrangements"
+
+                image="https://files.prepinsta.com/2023/07/english-topics-for-placements.webp"
+
+            />
+
+            {/* <!--------------------------------Mics ----------------------------------> */}
+
+            <AptitudeCardL
+                            title="Mics"
+                            subtopic1="Coding Deductive Logic"
+                            subtopic2="Selection Decision Tables"
+
+                            subtopic3="Attention to Details"
+                            image="https://files.prepinsta.com/2023/07/start-placement-preparations.webp"
+            
+            />
 
         </>
     )

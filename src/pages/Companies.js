@@ -28,34 +28,34 @@ export default function Companies() {
 
             {/* -----------------------------cards----------------------------- */}
 
-            <div class="container" id="majorcompanies">
-                <div class="title text-center">
-                    <h1 style={{ color: '#89d1a5' }} class="mt-5">Prepare for All Major Companies</h1>
+            <div className="container" id="majorcompanies">
+                <div className="title text-center">
+                    <h1 style={{ color: '#89d1a5' }} className="mt-5">Prepare for All Major Companies</h1>
                 </div>
 
                 {/* <!-- row 1  --> */}
-                <div class="row mt-5">
+                <div className="row mt-5">
 
                     {/* <!-- col 1  Accenture--> */}
-                    <div class="col-md-3 col-12 mb-4">
+                    <div className="col-md-3 col-12 mb-4">
 
                         <CardText
                             imagelink="https://files.prepinsta.com/2023/09/Group-40357.webp"
                             title="Accenture"
                             description="Start Preparing for Accenture"
-                            buttonlink="/"
+                            buttonlink="/Accenture"
 
                         />
                     </div>
 
                     {/* <!-- col 2 --> */}
-                    <div class="col-md-3 col-12 mb-4">
+                    <div className="col-md-3 col-12 mb-4">
 
                         <CardText
                             imagelink="https://files.prepinsta.com/2023/09/Group-40451.webp"
                             title="Deloitte"
                             description="Start Preparing for Deloitte"
-                            buttonlink="/"
+                            buttonlink="/Deloitte"
 
 
                         />
@@ -63,24 +63,24 @@ export default function Companies() {
                     </div>
 
                     {/* <!-- col 3 --> */}
-                    <div class="col-md-3 col-12 mb-4">
+                    <div className="col-md-3 col-12 mb-4">
                         <CardText
 
                             imagelink="https://files.prepinsta.com/2023/09/Group-40241.webp"
                             title="Infosys"
                             description="Start Preparing for Infosys"
-                            buttonlink="/"
+                            buttonlink="/Infosys"
 
                         />
                     </div>
 
                     {/* <!-- col 4 --> */}
-                    <div class="col-md-3 col-12 mb-4">
+                    <div className="col-md-3 col-12 mb-4">
                         <CardText
                             imagelink="https://files.prepinsta.com/2023/09/Group-40237.webp"
                             title="TCS"
                             description="Start Preparing for TCS"
-                            buttonlink="/"
+                            buttonlink="/TCS"
 
 
                         />
@@ -89,51 +89,51 @@ export default function Companies() {
 
 
                 {/* <!-- row 2  --> */}
-                <div class="row mt-2">
+                <div className="row mt-2">
                     {/* <!-- col 1 --> */}
-                    <div class="col-md-3 col-12 mb-4">
+                    <div className="col-md-3 col-12 mb-4">
 
                         <CardText
                             imagelink="https://files.prepinsta.com/2023/09/Group-40486.webp"
                             title="Zoho"
                             description="Start Preparing for Zoho"
-                            buttonlink="/"
+                            buttonlink="/Zoho"
 
 
                         />
                     </div>
 
                     {/* <!-- col 2 --> */}
-                    <div class="col-md-3 col-12 mb-4">
+                    <div className="col-md-3 col-12 mb-4">
                         <CardText
                             imagelink="https://files.prepinsta.com/2023/09/Group-40238.webp"
                             title="Wipro"
                             description="Start Preparing for Wipro"
-                            buttonlink="/"
+                            buttonlink="/Wipro"
 
 
                         />
                     </div>
 
                     {/* <!-- col 3 --> */}
-                    <div class="col-md-3 col-12 mb-4">
+                    <div className="col-md-3 col-12 mb-4">
                         <CardText
                             imagelink="https://files.prepinsta.com/2023/09/Group-40240.webp"
                             title="Capgemini"
                             description="Start Preparing for Capgemini"
-                            buttonlink="/"
+                            buttonlink="/Capgemini"
 
 
                         />
                     </div>
 
                     {/* <!-- col 4 --> */}
-                    <div class="col-md-3 col-12 mb-4">
+                    <div className="col-md-3 col-12 mb-4">
                         <CardText
                             imagelink="https://files.prepinsta.com/2023/09/Group-40487.webp"
                             title="IBM"
                             description="Start Preparing for IBM"
-                            buttonlink="/"
+                            buttonlink="/IBM"
 
 
                         />

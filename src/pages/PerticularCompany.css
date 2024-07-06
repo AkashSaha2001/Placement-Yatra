@@ -1,0 +1,59 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  /* .container img{
+    
+  } */
+
+  .container{
+    border-radius: 10px;
+}
+
+.sections {
+    color: white;
+    background-color: #2ecc71;
+    text-align: center;
+}
+
+.sections .buttontext {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    display: block;
+}
+
+.sections .buttontext:hover {
+    background-color: #27ae60;
+}
+
+/* 
+#AccentureCognative{
+    display: none;
+}
+#AccentureCognitive{
+    display: none;
+}
+#AccentureTechnical{
+    display: none;
+}
+#AccentureCoding{
+    display:none ;
+}
+#AccentureCommunication{
+display: none;
+} */

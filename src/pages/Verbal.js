@@ -1,13 +1,15 @@
 import React from 'react'
 import SubjectTopic from '../components/SubjectTopic'
+import AptitudeCardR from '../components/AptitudeCardR'
+import AptitudeCardL from '../components/AptitudeCardL'
 
 export default function Verbal() {
     return (
         <>
             <SubjectTopic
 
-imagelink="https://files.prepinsta.com/2023/07/important-english-topics-for-placements.webp"
-/>
+                imagelink="https://files.prepinsta.com/2023/07/important-english-topics-for-placements.webp"
+            />
 
             <div className="container mt-5">
                 <div className="container">
@@ -19,110 +21,71 @@ imagelink="https://files.prepinsta.com/2023/07/important-english-topics-for-plac
 
             {/* <!--------------------------------Basic Grammar ----------------------------------> */}
 
-            <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-                <h3 className="">Basic Grammar</h3>
-                <div className="row">
+            <AptitudeCardR
+                title="Basic Grammar"
+                subtopic1="Basic Grammar"
+                subtopic2="Speech and Voices"
+                subtopic3="Tenses"
+                subtopic4="Article"
+                subtopic5="Idoms and Phrases"
+                subtopic6="Prepositions and Conjunction"
+                subtopic7="Sentence Completion"
 
-                    <div className="col-md-8 col-12">
-                        <ul>
-                            <li style={{padding: '10px'}}> Basic Grammar – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Speech and Voices – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Tenses – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Article – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Idioms and Phrases  – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Prepositions and Conjunction – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Sentence Completion – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        </ul>
-                    </div>
+                image="https://files.prepinsta.com/2023/07/important-topics-on-verbal.webp"
 
-                    <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                        <img src="https://files.prepinsta.com/2023/07/important-topics-on-verbal.webp" alt="" style={{maxWidth: '200px'}}/>
-                    </div>
-                </div>
-            </div>
-
+            />
             {/* <!--------------------------------Sentences ----------------------------------> */}
 
-            <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-                <h3 className="">Sentences</h3>
-                <div className="row">
+            <AptitudeCardL
+                title="Sentences"
+                subtopic1="Sentence Ordering"
+                subtopic2="Contextual Vocabulary"
+                subtopic3="Jumbled Sentence"
+                subtopic4="Sentence Formation"
+                subtopic5="Error Identification"
 
-                    <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                        <img src="https://files.prepinsta.com/2023/07/important-topics-for-placements.webp" alt="" style={{maxWidth: '200px'}}/>
-                    </div>
+                image="https://files.prepinsta.com/2023/07/important-topics-for-placements.webp"
 
-                    <div className="col-md-8 col-12">
-                        <ul>
-                            <li style={{padding: '10px'}}> Sentence Ordering – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Contextual Vocabulary –  <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Jumbled Sentence – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Sentence Formation –  <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Error Identification –  <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            />
 
 
             {/* <!--------------------------------Paragraphs ----------------------------------> */}
 
-            <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-                <h3 className="">Classic Banking</h3>
-                <div className="row">
+            <AptitudeCardR
+                title="Paragraphs"
+                subtopic1="Cloze Test"
+                subtopic2="Fill In the Blanks"
+                subtopic3="Paragraph Ordering"
+                subtopic4="Para Jumbles"
 
-                    <div className="col-md-8 col-12">
-                        <ul>
-                            <li style={{padding: '10px'}}> Cloze Test <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Fill In the Blanks –  <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Paragraph Ordering – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Para Jumbles – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        </ul>
-                    </div>
+                image="https://files.prepinsta.com/2023/07/important-verbal-topics-1.webp"
 
-                    <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                        <img src="https://files.prepinsta.com/2023/07/important-verbal-topics-1.webp" alt="" style={{maxWidth: '200px'}}/>
-                    </div>
-                </div>
-            </div>
+            />
 
 
             {/* <!--------------------------------Synonyms - Antonyms ----------------------------------> */}
 
-            <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-                <h3 className="">Synonyms - Antonyms</h3>
-                <div className="row">
+            <AptitudeCardL
+                title="Synonyms - Antonyms"
+                subtopic1="Synonyms - Antonyms"
+                subtopic2="Antonyms"
+                subtopic3="Synonyms"
 
-                    <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                        <img src="https://files.prepinsta.com/2023/07/english-questions-for-placements.webp" alt="" style={{maxWidth: '200px'}}/>
-                    </div>
+                image="https://files.prepinsta.com/2023/07/english-questions-for-placements.webp"
 
-                    <div className="col-md-8 col-12">
-                        <ul>
-                            <li style={{padding: '10px'}}> Synonyms - Antonyms – <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Synonyms  <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                            <li style={{padding: '10px'}}> Antonyms  <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            />
 
             {/* <!--------------------------------Reading Comprehension ----------------------------------> */}
 
-            <div className="container mt-5" style={{background: '#ebeff2', borderRadius: '20px', padding: '20px'}}>
-                <h3 className="">Reading Comprehensions</h3>
-                <div className="row">
+            <AptitudeCardR
+                title="Reading Comprehensions"
+                subtopic1="Reading Comprehensions"
 
-                    <div className="col-md-8 col-12">
-                        <ul>
-                            <li style={{padding: '10px'}}> Reading Comprehension <a href="/" style={{backgroundColor: '#89d1a5', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Questions</a> | <a href="/" style={{backgroundColor: '#d3a781', borderRadius: '10px', padding: '5px', textDecoration: 'none', color: 'aliceblue'}}>Formulas</a></li>
-                        </ul>
-                    </div>
+                image="https://files.prepinsta.com/2023/07/important-english-topics-for-placements.webp"
 
-                    <div className="col-md-4 col-12 d-flex justify-content-center align-items-center">
-                        <img src="https://files.prepinsta.com/2023/07/important-english-topics-for-placements.webp" alt="" style={{maxWidth: '200px'}}/>
-                    </div>
-                </div>
-            </div>
+
+            />
+
         </>
     )
 }

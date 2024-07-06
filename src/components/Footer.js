@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -15,12 +16,12 @@ export default function Footer() {
                                 <h5 className="footer-learn-title">Learn</h5>
 
                                 <ul className="list-unstyled">
-                                    <li><a href="/quantitative-aptitude/" className="text-light">Quantitative Aptitude</a></li>
-                                    <li><a href="/data-interpretation/" className="text-light">Data Interpretation</a></li>
-                                    <li><a href="/logical-reasoning/" className="text-light">Logical Reasoning</a></li>
-                                    <li><a href="/verbal-reasoning/" className="text-light">Verbal Reasoning</a></li>
-                                    <li><a href="/non-verbal-reasoning/" className="text-light">Non Verbal Reasoning</a></li>
-                                    <li><a href="/verbal-ability/" className="text-light">Verbal Ability</a></li>
+                                    <li><Link to="/" className="text-light">Quantitative Aptitude</Link></li>
+                                    <li><Link to="/" className="text-light">Data Interpretation</Link></li>
+                                    <li><Link to="/" className="text-light">Logical Reasoning</Link></li>
+                                    <li><Link to="/" className="text-light">Verbal Reasoning</Link></li>
+                                    <li><Link to="/" className="text-light">Non Verbal Reasoning</Link></li>
+                                    <li><Link to="/" className="text-light">Verbal Ability</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -32,14 +33,14 @@ export default function Footer() {
                                 <h5 className="footer-learn-title">Companies</h5>
 
                                 <ul className="list-unstyled">
-                                    <li><a href="/" className="text-light">Accenture</a></li>
-                                    <li><a href="/" className="text-light">Capgemini</a></li>
-                                    <li><a href="/" className="text-light">Deloitte</a></li>
-                                    <li><a href="/" className="text-light">Infosys</a></li>
-                                    <li><a href="/" className="text-light">TCS</a></li>
-                                    <li><a href="/" className="text-light">Wipro</a></li>
-                                    <li><a href="/" className="text-light">Zoho</a></li>
-                                    <li><a href="/" className="text-light">IBM</a></li>
+                                    <li><Link to="/Accenture" className="text-light">Accenture</Link></li>
+                                    <li><Link to="/capgemini" className="text-light">Capgemini</Link></li>
+                                    <li><Link to="/Deloitte" className="text-light">Deloitte</Link></li>
+                                    <li><Link to="/Infosys" className="text-light">Infosys</Link></li>
+                                    <li><Link to="/TCS" className="text-light">TCS</Link></li>
+                                    <li><Link to="/Wipro" className="text-light">Wipro</Link></li>
+                                    <li><Link to="/Zoho" className="text-light">Zoho</Link></li>
+                                    <li><Link to="/IBM" className="text-light">IBM</Link></li>
 
                                 </ul>
                             </div>
@@ -50,8 +51,8 @@ export default function Footer() {
                             <div className="footer-resources">
                                 <h5 className="footer-learn-title">Resources</h5>
                                 <ul className="list-unstyled">
-                                    <li><a href="/" className="text-light">Blog</a></li>
-                                    <li><a href="/" className="text-light">Web Stories</a></li>
+                                    <li><Link to="/Blog" className="text-light">Blog</Link></li>
+                                    <li><Link to="/Web" className="text-light">Web Stories</Link></li>
                                 </ul>
                             </div>
                         </div>

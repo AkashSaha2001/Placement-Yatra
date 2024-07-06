@@ -17,6 +17,8 @@ import Footer from './components/Footer';
 import Quants from './pages/Quants';
 import Logical from './pages/Logical';
 import Verbal from './pages/Verbal';
+import Accenture from './pages/Accenture';
+import Deloitte from './pages/Deloitte';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
             <Route path="/Quants" element={<Quants/>}/>
             <Route path="/Logical" element={<Logical/>}/>
             <Route path="/Verbal" element={<Verbal/>}/>
+            <Route path="/Accenture" element={<Accenture/>}/>
+            <Route path="/Deloitte" element={<Deloitte/>}/>
 
 
 
